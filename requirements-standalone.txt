@@ -1,0 +1,3 @@
+-r requirements.txt
+# PyPI 2025.6.5 lacks LR5; this inspected revision includes it.
+pylitterbot @ git+https://github.com/natekspencer/pylitterbot.git@ba90c7c317d2873fcf6f5266f9d97b0f309fba58

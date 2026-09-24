@@ -1,0 +1,49 @@
+{
+  "timezone": "America/New_York",
+  "home_assistant_url": "http://homeassistant.local:8123",
+  "poll_seconds": 300,
+  "water_alert_pct": 15,
+  "waste_alert_pct": 90,
+  "litter_alert_pct": 20,
+  "pets": [
+    {
+      "id": "pet-1",
+      "name": "Your Cat",
+      "whisker_pet_id": "REPLACE_FROM_DISCOVERY",
+      "birth_date": null
+    }
+  ],
+  "devices": [
+    {
+      "id": "feeder-1",
+      "kind": "feeder",
+      "name": "Granary",
+      "model": "PLAF203",
+      "serial": "REPLACE_FROM_DISCOVERY"
+    },
+    {
+      "id": "fountain-1",
+      "kind": "fountain",
+      "name": "Kitchen",
+      "model": "PLWF106",
+      "assigned_pet": null,
+      "serial": "REPLACE_FROM_DISCOVERY"
+    },
+    {
+      "id": "fountain-2",
+      "kind": "fountain",
+      "name": "Office",
+      "model": "PLWF106",
+      "assigned_pet": null,
+      "serial": "REPLACE_FROM_DISCOVERY"
+    },
+    {
+      "id": "litter-1",
+      "kind": "litter",
+      "name": "Litter-Robot 5",
+      "model": "LR5",
+      "serial": "REPLACE_FROM_DISCOVERY"
+    }
+  ],
+  "source": "standalone"
+}

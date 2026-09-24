@@ -1,0 +1,7 @@
+name = "cat-stats"
+main = "worker.mjs"
+compatibility_date = "2026-09-23"
+
+[[kv_namespaces]]
+binding = "CAT_STATS"
+id = "REPLACE_WITH_NEW_CAT_STATS_NAMESPACE_ID"

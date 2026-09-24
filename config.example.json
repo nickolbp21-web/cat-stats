@@ -1,0 +1,79 @@
+{
+  "timezone": "America/New_York",
+  "home_assistant_url": "http://homeassistant.local:8123",
+  "poll_seconds": 60,
+  "water_alert_pct": 15,
+  "waste_alert_pct": 90,
+  "litter_alert_pct": 20,
+  "pets": [
+    {
+      "id": "pet-1",
+      "name": "Your Cat",
+      "entities": {
+        "weight_kg": "",
+        "visits_today": ""
+      },
+      "birth_date": null
+    }
+  ],
+  "devices": [
+    {
+      "id": "feeder-1",
+      "kind": "feeder",
+      "name": "Granary",
+      "model": "PLAF203",
+      "entities": {
+        "last_feed_at": "",
+        "next_feed_at": "",
+        "feedings_today": "",
+        "food_low": "",
+        "online": ""
+      }
+    },
+    {
+      "id": "fountain-1",
+      "kind": "fountain",
+      "name": "Kitchen",
+      "model": "PLWF106",
+      "assigned_pet": null,
+      "entities": {
+        "today_ml": "",
+        "yesterday_ml": "",
+        "water_pct": "",
+        "filter_days": "",
+        "online": ""
+      }
+    },
+    {
+      "id": "fountain-2",
+      "kind": "fountain",
+      "name": "Office",
+      "model": "PLWF106",
+      "assigned_pet": null,
+      "entities": {
+        "today_ml": "",
+        "yesterday_ml": "",
+        "water_pct": "",
+        "filter_days": "",
+        "online": ""
+      }
+    },
+    {
+      "id": "litter-1",
+      "kind": "litter",
+      "name": "Litter-Robot 5",
+      "model": "LR5",
+      "entities": {
+        "status": "",
+        "waste_pct": "",
+        "litter_pct": "",
+        "cycles": "",
+        "online": "",
+        "hopper_connected": "",
+        "laser_dirty": "",
+        "drawer_removed": "",
+        "bonnet_removed": ""
+      }
+    }
+  ]
+}
